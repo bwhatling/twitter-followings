@@ -1,13 +1,14 @@
-import NavBar from './common/components/NavBar/NavBar';
-import MainFooter from './common/components/MainFooter/MainFooter';
+import NavBar from "./common/components/NavBar/NavBar";
+import MainFooter from "./common/components/MainFooter/MainFooter";
+import NavBarButton from "./common/components/NavBar/NavBarButton/NavBarButton";
 
-import './MainContainer.sass'
+import "./MainContainer.sass";
 
 function App() {
   return (
     <div className="main-container">
-      <NavBar/>
-      <MainFooter/>
+      <NavBar navigationButtons={<NavBarButton />} />
+      <MainFooter />
     </div>
   );
 }
