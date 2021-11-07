@@ -5,7 +5,7 @@ import './MainFooter.sass'
 export const MainFooter = ({}) => {
     return (
         <div className="main-footer-container">
-            Footer items here
+            Footer
         </div>
     )
 }
